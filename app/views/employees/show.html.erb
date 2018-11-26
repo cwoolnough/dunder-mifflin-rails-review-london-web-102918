@@ -1,0 +1,13 @@
+<h1>Name: <%= @employee.full_name %></h1>
+
+<h2>Alias: <%= @employee.alias %></h2>
+
+<h3>Title: <%= @employee.title %></h3>
+
+<h3>Office: <%= @employee.office %></h3>
+
+<img src="<%= @employee.img_url %>"><br>
+
+<hr>
+
+<%= link_to "All Employees", employees_path(@employees)%>
